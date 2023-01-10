@@ -75,11 +75,11 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label for="nama">Nama Barang</label>
-                        <input type="text" class="form-control" id="nama" placeholder="Isi Nama Barang" name="nama">
+                        <input type="text" class="form-control" id="nama" placeholder="Isi Nama Barang" name="nama" required>
                     </div>
                     <div class="form-group">
                         <label>Kategori</label>
-                            <select class="form-control select2" style="width: 100%;" name="kategori_id">
+                            <select class="form-control select2" style="width: 100%;" name="kategori_id" required>
                             <option value="">-----Pilih Kategori-----</option>
                                 <?php
                                   while ($datakategori=mysqli_fetch_array($resultkategori))
@@ -91,7 +91,7 @@
                     </div>
                     <div class="form-group">
                         <label>Status</label>
-                            <select class="form-control select2" style="width: 100%;" name="satuan_id">
+                            <select class="form-control select2" style="width: 100%;" name="satuan_id" required>
                             <option value="">-----Pilih Satuan-----</option>
                                 <?php
                                   while ($datasatuan=mysqli_fetch_array($resultsatuan))

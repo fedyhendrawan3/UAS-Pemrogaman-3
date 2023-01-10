@@ -39,7 +39,7 @@
             <div class="card">
               <div class="card-header">
               <a href="input_transaksi.php" role="button" class="btn btn-normal bg-gradient-primary">Tambah Transaksi</a>
-              <a href="excel_transaksi.php" role="button" class="btn btn-normal bg-gradient-success">Export Excel</a>
+              <a href="excel_transaksi.php" role="button" class="btn btn-normal bg-gradient-success">Cetak Laporan</a>
               </div>
               <!-- /.card-header -->
               <div class="card-body">

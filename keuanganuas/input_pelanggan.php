@@ -70,7 +70,7 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label for="nama">Nama Pelanggan</label>
-                        <input type="text" class="form-control" id="nama" placeholder="Isi Nama Pelanggan" name="nama_pelanggan">
+                        <input type="text" class="form-control" id="nama" placeholder="Isi Nama Pelanggan" name="nama_pelanggan" required>
                     </div>
                     <div class="form-group">
                         <label for="nama">No. Telepon</label>
@@ -78,8 +78,8 @@
                     </div>
                     <div class="form-group">
                         <label>Status</label>
-                            <select class="form-control select2" style="width: 100%;" name="status">
-                                <option selected="selected" >----- Pilih Status -----</option>
+                            <select class="form-control select2" style="width: 100%;" name="status" required>
+                                <option value="" >----- Pilih Status -----</option>
                                 <option value="MEMBER">Member</option>
                                 <option value="NON MEMBER">Non Member</option>
                             </select>

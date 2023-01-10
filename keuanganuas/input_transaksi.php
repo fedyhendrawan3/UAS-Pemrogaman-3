@@ -87,19 +87,19 @@
                     </div>
                     <div class="form-group">
                         <label for="nama">Tanggal</label>
-                        <input type="date" class="form-control" id="tgl_transaksi" placeholder="Isi Tanggal" name="tgl_transaksi">
+                        <input type="date" class="form-control" id="tgl_transaksi" placeholder="Isi Tanggal" name="tgl_transaksi" required>
                     </div>
                     <div class="form-group">
                         <label for="nama">Harga</label>
-                        <input type="number" class="form-control" id="harga" placeholder="Isi Harga" name="harga">
+                        <input type="number" class="form-control" id="harga" placeholder="Isi Harga" name="harga" required>
                     </div>
                     <div class="form-group">
                         <label for="nama">Qty</label>
-                        <input type="number" class="form-control" id="qty" placeholder="Isi Qty" name="qty">
+                        <input type="number" class="form-control" id="qty" placeholder="Isi Qty" name="qty" required>
                     </div>
                     <div class="form-group">
                         <label>Status</label>
-                            <select class="form-control select2" style="width: 100%;" name="id_barang">
+                            <select class="form-control select2" style="width: 100%;" name="id_barang" required>
                               <option value="">-----Pilih Barang-----</option>
                                 <?php
                                   while ($databarang=mysqli_fetch_array($resultbarang))
@@ -111,7 +111,7 @@
                     </div>
                     <div class="form-group">
                         <label>Pelanggan</label>
-                            <select class="form-control select2" style="width: 100%;" id="id_pelanggan" name="id_pelanggan" onchange="DataPelanggan()">
+                            <select class="form-control select2" style="width: 100%;" id="id_pelanggan" name="id_pelanggan" onchange="DataPelanggan()" required>
                               <option value="">-----Pilih Pelanggan-----</option>
                                 <?php
                                   while ($datapelanggan=mysqli_fetch_array($resultpelanggan))

@@ -67,7 +67,7 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label for="nama">Nama Kategori</label>
-                        <input type="text" class="form-control" id="nama" placeholder="Isi Nama Kategori" name="nama">
+                        <input type="text" class="form-control" id="nama" placeholder="Isi Nama Kategori" name="nama" required>
                     </div>
                 </div>
                 <!-- /.card-body -->
